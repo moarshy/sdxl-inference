@@ -21,7 +21,9 @@
                     "--prompt",
                     {{.Prompt}},
                     "--num_inf_steps",
-                    {{.Steps}}
+                    {{.Steps}},
+                    "--lora_model",
+                    "/inputs/outputs",
                 ],
                 "Image": "docker.io/marshath/sdxl-inference:v0.0.2"
             },
